@@ -1,0 +1,36 @@
+.testbox{
+    display: flex;
+    justify-content: center;
+}
+.box1{
+    width: 1000px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 13px;
+}
+h4{
+    text-align: justify;
+}
+.btn-test{
+    height: 105px;
+    border: none;
+    margin-top: 60px;
+    width: 42px;
+    background-color:#00c6a9;;
+}
+@media (max-width: 550px){
+    .testbox{
+        width: 251px;
+    }
+    .btn-test{
+        width: 145px;
+    margin-top: 150px;
+    }
+    .tt1{
+        display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+    .ptest{
+        margin-top: 610px;
+    }
+}

@@ -1,0 +1,100 @@
+/* TitleCommentCarousel.css */
+.title-comment-carousel {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.carousel-content {
+    margin-bottom: 20px;
+}
+
+.carousel-content h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.carousel-content p {
+    font-size: 18px;
+    color: #333;
+}
+
+.prev,.next {
+    position: absolute;
+    top: 30%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 1;
+}
+
+.prev {
+    left: 0;
+    height: 105px;
+    border: none;
+    width: 42px;
+    background-color:#00c6a9;;
+}
+
+.next {
+    right: 0;
+    height: 105px;
+    border: none;
+    width: 42px;
+    background-color:#00c6a9;;
+}
+
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.prev:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 550px){
+    .title-comment-carousel {
+        position: relative;
+        width: 100%;
+        margin: auto;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+    }
+    .prev,.next{
+        position: absolute;
+        top: 40%;
+        background-color: rgba(0, 0, 0, 0.5);
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 24px;
+        z-index: 1;
+    }
+    .prev {
+        left: 0;
+        height: 105px;
+        border: none;
+        width: 42px;
+        background-color:#00c6a9;;
+    }
+    
+    .next {
+        right: 0;
+        height: 105px;
+        border: none;
+        width: 42px;
+        background-color:#00c6a9;;
+    }
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    .prev:hover{
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    
+}

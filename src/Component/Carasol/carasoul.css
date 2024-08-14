@@ -1,0 +1,29 @@
+.car-con{
+    background-color: white;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 388px;
+}
+
+.team-img{
+    height: 269px;
+    width: 270px;
+}
+.icon{
+    font-size: x-large;
+    display: flex;
+    justify-content: space-evenly;
+    width: 182px;
+}
+.deg{
+    color:#00c6a9;
+}
+
+@media (max-width: 750px){
+    .car-con{
+        width: 100%;
+        padding: 0 0 15px 0;
+    }
+}

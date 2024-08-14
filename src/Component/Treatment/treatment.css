@@ -1,0 +1,19 @@
+.treat{
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    float: left;
+}
+
+.treat-img{
+    height: 70px;
+    width: 80px;
+}
+.treat h4,p,.read{
+    text-align: justify;
+}
+
+.read{
+    text-decoration: none;
+    color: #00c6a9;;
+}

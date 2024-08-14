@@ -1,0 +1,49 @@
+.caracon{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 105px 0 0 0;
+   
+}
+.caracon button{
+    height: 55px;
+    width: 55px;
+    border: none;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 152px 0 0 0;
+    justify-content: center;
+    align-items: center;
+}
+.caracon button i{
+    font-size: xx-large;
+}
+.carblue{
+    background-color: #00c6a9;
+    height: 600px;
+    margin-top: 110px;
+}
+.outdoct{
+    margin-top: 60px;
+}
+@media (max-width: 750px){
+   .caracon{
+    flex-direction: column;
+   }
+   .outdoct{
+    margin-top: 10px;
+   }
+  .caracon button{
+    display: none;
+   }
+  .caracon button i {
+    display: none;
+   }
+   .caracon{
+    padding: 0;
+   }
+   .carblue{
+    margin-top: 70px;
+
+   }
+}

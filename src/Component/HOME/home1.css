@@ -1,0 +1,59 @@
+.home1-con{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    text-align: justify;
+    height: 660px;
+}
+.head{
+    padding-top: 160px;
+}
+.btn1{
+    display: flex;
+    text-decoration: none;
+}
+.btn1 button{
+    width: 130px;
+    height: 40px;
+    color: white;
+    background-color: black;
+}
+.head p{width:515px;
+    text-align:justify}
+
+.mico{
+    color:#00c6a9;
+}
+
+.head h1{
+    line-height:67px;
+    width:98px}
+
+@media (max-width: 750px){
+    .home1-con{
+        flex-direction: column-reverse;
+        padding: 0;
+        text-align: justify;
+        height: 700px;
+    }
+
+    .head{
+        padding-left: 12px;
+        padding-top: 0px;
+    }
+    .head h1{
+        line-height: 50px;
+    }
+    .head p{
+        width: 350px;
+    }
+
+    .head p{
+        width: 320px;
+    }
+    .head-img img{
+        height: 325px;
+        width: 100%;
+        padding-top: 18px;
+    }
+}
